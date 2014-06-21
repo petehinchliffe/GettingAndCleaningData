@@ -43,7 +43,8 @@ AggregateActivitiesAndSubjects <- function (alldata) {
   #remove group column for subject and the original column for activity
   aggdata <- aggdata[,c(2:3,5:69)]
   #relabel the group column for subject
-  colnames(aggdata[2,]) <- 'subject'
+  colnames(aggdata)[2] <- 'subject'
+  colnames(aggdata)[1] <- 'activity'
   #return dataset
   aggdata
 }
