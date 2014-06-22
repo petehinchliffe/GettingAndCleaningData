@@ -1,10 +1,10 @@
 CodeBook
 ======================
 
-Data Set 1
------------
+Data Set 1  
+-----------  
 *variable out1 (saved in fullDataSet.csv)*  
-**Codebook**  
+**Codebook**   
 Data consists of 67 variables, as follows:  
 1.	activity - The activity as a factor with the following values: 1 WALKING,2 WALKING_UPSTAIRS,3 WALKING_DOWNSTAIRS,4 SITTING,5 STANDING,6 LAYING  
 2-67 The following columns as described in features_info.txt  
