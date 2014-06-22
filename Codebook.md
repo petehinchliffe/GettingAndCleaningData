@@ -1,5 +1,6 @@
 CodeBook
 ======================
+This codebook describes the two data sets produced by the script run_analysis.R
 
 Data Set 1  
 -----------  
@@ -7,7 +8,7 @@ Data Set 1
 **Codebook**   
 Data consists of 67 variables, as follows:  
 1.	activity - The activity as a factor with the following values: 1 WALKING,2 WALKING_UPSTAIRS,3 WALKING_DOWNSTAIRS,4 SITTING,5 STANDING,6 LAYING  
-2-67 The following columns as described in features_info.txt  
+2-67 The following columns as described in **features_info.txt**  
 	tBodyAcc-mean()-X   
 	tBodyAcc-mean()-Y  
 	tBodyAcc-mean()-Z  
@@ -82,14 +83,14 @@ Data consists of 67 variables, as follows:
 - The activity numbers for each row are read from the file y_train.txt, labelled with descriptions, and combined with the dataset.   
 
 
-Data Set 2
-------------
-*variable out2 (saved in aggregatedDataSet.csv)*
-**Codebook for data set 2**
-Data constists of 68 columns:
-activity - the activity ()
-subject - the subject to whom these measurements apply
-Columns 3-68 : The mean value for each subject and activity of the following columns as described in features_info.txt
+Data Set 2  
+------------  
+*variable out2 (saved in aggregatedDataSet.csv)*  
+**Codebook for data set 2**  
+Data constists of 68 columns:  
+activity - the activity ()  
+subject - the subject to whom these measurements apply  
+Columns 3-68 : The mean value for each subject and activity of the following columns as described in features_info.txt  
 	tBodyAcc-mean()-X  
 	tBodyAcc-mean()-Y  
 	tBodyAcc-mean()-Z  

@@ -26,6 +26,4 @@ This takes the first dataset as a parameter, and does the following:
 - Aggregates the data by activity and subject, using the mean() function to return the average of the aggregated values in the dataseet.  
 - This dataset is then returned.  
    
-The data should be in a subdirectory of the working directory called 'data', with the same folder structure as in the source at 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
